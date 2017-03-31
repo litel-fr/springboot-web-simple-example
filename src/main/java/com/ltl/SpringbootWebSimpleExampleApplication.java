@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Import;
 @Import(value = {EchoConf.class})
 public class SpringbootWebSimpleExampleApplication implements CommandLineRunner {
 
-    private final static Logger LOGGER = Logger.getLogger(CommandLineRunner.class);
+    private static final Logger LOGGER = Logger.getLogger(CommandLineRunner.class);
 
     public static void main(String[] args) {
         SpringApplication.run(SpringbootWebSimpleExampleApplication.class, args);
